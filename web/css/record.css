@@ -1,0 +1,140 @@
+.table, table.collection, table.flexible, .generaltable {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+table {
+    border-collapse: collapse;
+}
+*, ::before, ::after {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+
+}
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    background: #f7f7f7;
+}
+body {
+    font-family: lato;
+}
+body {
+    margin: 0;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #373a3c;
+    text-align: left;
+    background-color: #fff;
+}
+table {
+    border-collapse: collapse;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.table thead th, table.collection thead th, table.flexible thead th, .generaltable thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table th, table.collection th, table.flexible th, .generaltable th, .table td, table.collection td, table.flexible td, .generaltable td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+th {
+    text-align: inherit;
+}
+.table th, table.collection th, table.flexible th, .generaltable th, .table td, table.collection td, table.flexible td, .generaltable td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+a {
+    color: #fd647a;
+    text-decoration: none;
+    background-color: transparent;
+}
+#page-mod-quiz-view .quizinfo, #page-mod-quiz-view #page .quizgradefeedback, #page-mod-quiz-view #page .quizattempt {
+    text-align: center;
+}
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+}
+.pt-3, .py-3 {
+    padding-top: 1rem!important;
+}
+.singlebutton {
+    display: inline-block;
+}
+body #page input[type=submit].btn-secondary, body #page input.btn-default[type=submit], body #page input[type=reset].btn-secondary, body #page input.btn-default[type=reset], body #page input[type=button].btn-secondary, body #page input.btn-default[type=button], body #page button.btn-secondary, body #page button.btn-default, body #page .btn.btn-secondary, body #page #page-grade-grading-manage .actions .action.btn-secondary, body #page #page-grade-grading-manage .actions .btn-default.action, #page-grade-grading-manage .actions body #page .action.btn-secondary, body #page #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-secondary, body #page #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input.btn-default, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel body #page input.btn-secondary, body #page #rubric-rubric.gradingform_rubric .addcriterion.btn-secondary, body #page #rubric-rubric.gradingform_rubric .btn-default.addcriterion, #rubric-rubric.gradingform_rubric body #page .addcriterion.btn-secondary, body #page .btn-default.btn, body #page #page-grade-grading-manage .actions .action.btn-default, #page-grade-grading-manage .actions body #page .action.btn-default, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel body #page input.btn-default, body #page #rubric-rubric.gradingform_rubric .addcriterion.btn-default, #rubric-rubric.gradingform_rubric body #page .addcriterion.btn-default {
+    background-color: #fff;
+    border: 0;
+    box-shadow: inset 0 0 0 1px rgb(144 144 144 / 35%);
+    color: #000;
+}
+body #page .btn, body #page #page-grade-grading-manage .actions .action, #page-grade-grading-manage .actions body #page .action, body #page #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel body #page input, body #page #rubric-rubric.gradingform_rubric .addcriterion, #rubric-rubric.gradingform_rubric body #page .addcriterion {
+    line-height: 3.1em;
+}
+body #page input[type=submit], body #page input[type=reset], body #page input[type=button], body #page .btn, body #page #page-grade-grading-manage .actions .action, #page-grade-grading-manage .actions body #page .action, body #page #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel body #page input, body #page #rubric-rubric.gradingform_rubric .addcriterion, #rubric-rubric.gradingform_rubric body #page .addcriterion {
+    -moz-appearance: none;
+    appearance: none;
+    transition: background-color .2s ease-in-out,color .2s ease-in-out;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: .08rem;
+    height: 2.75rem;
+    margin: 0.5rem;
+    padding: 0 0.9rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.btn, #page-grade-grading-manage .actions .action, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric .addcriterion {
+    vertical-align: middle;
+    }
+
+button, input {
+    overflow: visible;
+}
+

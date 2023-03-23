@@ -1,0 +1,127 @@
+
+
+.nextprev a.w3-right, .nextprev a.w3-left {
+    background-color: #04AA6D;
+    color: #ffffff;
+    border-color: #04AA6D;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.w3-example {
+    padding: 8px 20px;
+    margin: 24px -20px;
+    box-shadow: none!important;
+}
+.w3-example {
+    background-color: #E7E9EB;
+    border-radius: 5px;
+    padding: 0.01em 16px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+.w3-section, .w3-code {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+}
+.w3-padding {
+    padding: 8px 16px!important;
+}
+.w3-padding-16 {
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+}
+.xx {
+    background-color: #E7E9EB;
+    color: black;
+    box-shadow: none !important;
+    outline: none;
+}
+.ws-black {
+    background-color: #282A35!important;
+    color: white!important;
+}
+.w3-btn, .w3-btn:link, .w3-btn:visited {
+    color: #FFFFFF;
+    background-color: #4CAF50;
+}
+button, [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button;
+}
+button, input, select, textarea, optgroup {
+    font: inherit;
+    margin: 0;
+}
+.ws-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+}
+table-all {
+    margin: 20px 0;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.ws-table-all tr:nth-child(odd) {
+    background-color: #fff;
+}
+.ws-table-all tr:nth-child(even) {
+    background-color: #E7E9EB;
+}
+.ws-table-all td, .ws-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+}
+
+.flex-container .box {
+    background-color: #f1f1f1;
+    color: #000;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    line-height: 35px;
+}
+p {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 15px;
+}
+.w3-bar-block .w3-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
